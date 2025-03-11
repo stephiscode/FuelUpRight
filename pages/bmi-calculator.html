@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="./bmi-calculator.css">
+</head>
+<body>
+    <header>
+        <h1>BMI Calculator</h1>
+        <p>Check your Body Mass Index to determine your weight status.</p>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../pages/heart-health.html">Heart Health</a></li>
+                <li><a href="../pages/meals-plans.html">Meal Plans</a></li>
+                <li><a href="../pages/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="bmi-container">
+        <h2>Calculate Your BMI</h2>
+        <form id="bmi-form">
+            <label for="weight">Weight (kg):</label>
+            <input type="number" id="weight" placeholder="Enter your weight" required>
+
+            <label for="height">Height (m):</label>
+            <input type="number" id="height" placeholder="Enter your height" step="0.01" required>
+
+            <button type="submit">Calculate BMI</button>
+        </form>
+
+        <div id="bmi-result"></div>
+        <p id="bmi-message"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 FuelUpRight | Powered by StephisCode. All Rights Reserved.</p>
+    </footer>
+
+    <script src="./bmi-calculator.js"></script>
+</body>
+</html>

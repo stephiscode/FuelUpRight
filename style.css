@@ -1,0 +1,154 @@
+body{
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('./images/pexels-jamalyahyayev-3588166.jpg') no-repeat center center/cover;
+    color: #333;  
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: linear-gradient(45deg, #ffcc00, #ff5733);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+header p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #ffcc00;
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+.hero h2{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #ff5733;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.hero p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #f8f9fa;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+.hero{
+    text-align: center;
+    padding: 50px;
+}
+
+.swiper-container{
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    animation: slide 10s infinite;
+}
+@keyframes slide {
+    0%, 100% { opacity: 0;}
+    25% {opacity:1;}
+}
+
+.swiper-slide{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    width: 80%;
+    color: white;
+    background: linear-gradient(90deg, #ff8c00 #ff2d55);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.5s ease-in-out;
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.option-card{
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.option-card{
+    background: #f4f4f4;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.option-card:hover{
+    transform: scale(1.05);
+}
+
+.option-card a:hover{
+    color: #27ae60;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+

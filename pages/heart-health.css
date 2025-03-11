@@ -1,0 +1,193 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('../images/pexels-pixabay-39579.jpg') no-repeat center center/cover;
+    color: #ffff;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+header h1{
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    text-shadow: 3px 3px 8px rgba(255, 255, 255, 0.3);
+}
+
+header p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.3);
+}
+
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.hero p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Heart Tips */
+.heart-tips {
+    background: #1A1A1A;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.heart-tips h2 {
+    color: #d63031;
+    font-size: 2rem;
+}
+
+.heart-tips ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.heart-tips li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    padding: 10px;
+    background: #f;
+    border-radius: 8px;
+    transition:  background 0.3s;
+}
+
+.heart-tips li:hover {
+    background: #ffcccc;
+}
+
+/* Recommended Foods */
+.recommended-foods {
+    background: #ffebe6;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.recommended-foods h2 {
+    color: #d63031;
+    font-size: 2rem;
+}
+
+.food-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.food-item {
+    background: #fff;
+    padding: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, background 0.3s;
+}
+
+.food-item:hover {
+    transform: scale(1.1);
+    background: #ffcccc;
+}
+
+/* Interactive Section */
+.interactive-section {
+    text-align: center;
+    padding: 50px 20px;
+    background: #191818;
+}
+
+.interactive-section h2 {
+    font-size: 2rem;
+    color: #d63031;
+}
+
+#calculate-btn {
+    background: #d63031;
+    color: white;
+    font-size: 1.2rem;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#calculate-btn:hover {
+    background: #a62323;
+}
+
+#health-score {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+    font-size: 1rem;
+}

@@ -1,0 +1,93 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('../images/pexels-foodie-factor-162291-539431.jpg') no-repeat center center/cover;
+    color: #333;
+}
+
+header{
+    text-align: center;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+form{
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 450px;
+    animation: fade 1s ease-in-out;
+}
+
+label{
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    background: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background: #e64a19;
+}
+
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

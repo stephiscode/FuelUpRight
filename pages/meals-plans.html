@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Plans</title>
+    <link rel="stylesheet" href="./meals-plans.css">
+
+</head>
+<body>
+<header>
+    <h1>Meals Plans</h1>
+    <p>Choose the best meal plan for your health and lifestyle</p>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../pages/heart-health.html">Heart Health</a></li>
+            <li><a href="../pages/bmi-calculator.html">BMI Calculator</a></li>
+            <li><a href="../pages/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="meal-intro" class="hero">
+    <h2>Find the Perfect Meal Plan for You</h2>
+    <p>Eating the right foods can improve your health, energy levels, and overall wellbeing. Explore different meal plan tailored to your needs</p>
+</section>
+
+<section class="meal-options">
+    <div class="meal-card" onclick="showPlan('weight-loss')">
+        <h3>Weight Loss Plan</h3>
+        <p>Low-calorie, nutient-dense meals to help you shed excess weight </p>
+    </div>
+
+    <div class="meal-card" onclick="showPlan('muscle-gain')">
+        <h3>Muscle Gain Plan</h3>
+        <p>High-protein meals to support muscle growth and recovery.</p>
+    </div>
+
+    <div class="meal-card" onclick="showPlan('heart-health')">
+        <h3>Heart-Healthy Plan</h3>
+        <p>Low-sodium, fiber-rich meals to keep your heart strong.</p>
+    </div>
+</section>
+
+
+<section class="meal-details">
+    <h2 id="meal-title"></h2>
+    <p id="meal-description"></p>
+    <ul id="meal-list"></ul>
+</section>
+
+
+<footer>
+    <p>&copy; 2025 FuelUpRight | Powered by StephisCode. All Rights Reserved.</p>
+</footer>
+
+
+
+<script src="./meals-plans.js"></script>
+</body>
+</html>
